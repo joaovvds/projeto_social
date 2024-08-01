@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Redes Socias</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        ol > li {
+            text-align: end;
+            margin: 10px;
+        }
+        li > a > img {
+            height: 60px;
+            border-radius: 100px;
+            box-shadow: 2px 2px 2px 2px rgb(0, 0, 0, 0.205);
+            box-sizing: border-box;
+        }
+        li > a > img:hover {
+            border: 2px solid rgb(255, 255, 255, 0.237);
+            transform: translate(-3px, -3px);
+            box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.623);
+            transition: transform .3s;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <ol>
+            <li>
+                <a  href="paginas/home.html" target="celular">
+                <img src="imagens/logo-home.jpg"></a>
+            </li>
+            <li>
+                <a href="paginas/youtube.html" target="celular"><img src="imagens/logo-youtube.jpg" alt=""></a>
+            </li>
+            <li>
+                <a href="paginas/github.html" target="celular"><img src="imagens/logo-github.jpg" alt=""></a>
+            </li>
+            <li>
+                <a href="paginas/instagram.html" target="celular"><img src="imagens/logo-instagram.jpg" alt=""></a>
+            </li>
+            <li>
+                <a href="paginas/twitter.html" target="celular"><img src="imagens/logo-twitter.jpg" alt=""></a>
+            </li>
+            <li>
+                <a href="paginas/facebook.html" target="celular">
+                 <img src="imagens/logo-facebook.jpg"></a>
+            </li>
+        </ol>
+    </nav>
+
+   
+    <div class="celular">
+        <img src="imagens/frame-iphone.png" alt="">
+    </div>
+    
+    <iframe name="celular" src="paginas/home.html" height="470px" width="266"></iframe>
+
+        
+</body>
+</html>
